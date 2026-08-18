@@ -8,7 +8,7 @@ name:
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: he/him
-postnominals:
+postnominals: []
 
 status:
   icon: "☕️"
@@ -121,4 +121,4 @@ awards:
     icon: hero/trophy
   - title: National Merit Scholar
     awarder: National Merit Scholarship Corporation
-  
+    date: "2017-05-01"
