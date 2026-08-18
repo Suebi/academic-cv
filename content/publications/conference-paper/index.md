@@ -1,22 +1,20 @@
 ---
-title: 'An example conference paper'
+title: 'A Novel Trace Transfer Learning Framework to Improve Dataset Quality and Reduce Modeling Effort'
 
 # Authors
 # If you created a profile for a user (e.g. the default `me` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Xu Han
   - me
-  - Robert Ford
+  - Marcella Miller
+  - Xiaodong Jia
+  - James Moyne
+  - Jimmy Iskandar
+  - Fei Li
+  - Arvind Shankar Raman
 
-# Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-
-date: '2013-07-01T00:00:00Z'
-
-# Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+date: '2026-05-11'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,35 +23,25 @@ publication_types: ['paper-conference']
 
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 publication:
-  name: "Proceedings of the HugoBlox Kit Conference"
-  short_name: "ICW"
+  name: "A Novel Trace Transfer Learning Framework to Improve Dataset Quality and Reduce Modeling Effort"
 
 peer_reviewed: true
-open_access: true
-license: CC-BY-4.0
+open_access: false
 
 # Awards, honors, and recognitions. Surfaced as badges on the page and in listings.
 awards:
-  - name: "Best Paper Award"
-    level: winner
-    note: "Top 5 of 8000 submissions"
   - name: "Oral Presentation"
     level: selected
 
 # Funders and grants. Required by many funders for compliance reporting.
 funding:
-  - funder: "National Science Foundation"
-    grant: "NSF-2401234"
-  - funder: "European Research Council"
-    grant: "ERC-StG-101234"
+  - funder: "Applied Materials"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Semiconductor manufacturing processes exhibit high variability in sensor traces across chambers, recipes, tools, hindering the deployment of robust fault detection (FD) models and limiting performance in data-scarce contexts. This study proposes a Dynamic Time Warping (DTW)-based trace transfer learning (TL) framework that unifies heterogeneous trace data to enable model reuse and reduce modeling effort. The method features (1) a trace transfer learning framework with trace distribution adjustment, (2) a context similarity metric to assess transfer suitability, and (3) a feature boundary segmentation mechanism for refined transfer paths. Validated on a public metal-etch dataset, the proposed approach reduces the false positive rate from 0.682 to 0.009 and improves the area under the curve (AUC) to 0.973. With the proposed TL framework, the number of FD models required across diverse data contexts can be significantly reduced, thereby lowering modeling and maintenance effort without compromising model performance.
 
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
-  - Large Language Models
+  - Transfer Learning
 
 # Display this page in the Featured widget?
 featured: true
@@ -61,44 +49,23 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 10.5555/123456
-
-# Custom links
-links:
-  - type: pdf
-    url: ""
-  - type: code
-    url: https://github.com/HugoBlox/kit
-  - type: dataset
-    url: https://github.com/HugoBlox/kit
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: https://github.com/HugoBlox/kit
-  - type: video
-    url: https://youtube.com
+    doi: 10.1109/ASMC69324.2026.11551245
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/projects/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - example
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: ""
 ---
 
 > [!NOTE]
