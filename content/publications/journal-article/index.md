@@ -5,7 +5,7 @@ authors:
 - me
 - Brandon Foreman
 - Xiaodong Jia
-date: "2025"
+date: '2025-01-01'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
