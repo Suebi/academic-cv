@@ -1,15 +1,11 @@
 ---
-title: "An example journal article"
+title: "Topological Visualization of Intracranial Pressure Morphology Variations and Real Time Data Trajectory Mapping"
 authors:
+- Xu Han
 - me
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-date: "2015-09-01T00:00:00Z"
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+- Brandon Foreman
+- Xiaodong Jia
+date: "2025"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,32 +14,14 @@ publication_types: ["article-journal"]
 
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 publication:
-  name: "Journal of Source Themes"
-  volume: 1
-  issue: 1
+  name: "IEEE Journal of Biomedical and Health Informatics"
+  volume: 30
+  issue: 5
 
 peer_reviewed: true
-open_access: true
-license: CC-BY-4.0
+open_access: false
 
-# Awards, honors, and recognitions. Surfaced as badges on the page and in listings.
-# Note: a Test of Time award years after publication uses an explicit `date` that differs from the page date.
-awards:
-  - name: "Test of Time Award"
-    level: winner
-    date: "2025"
-    note: "Awarded for sustained impact 10 years after publication."
-  - name: "Editor's Choice"
-    level: featured
-
-funding:
-  - funder: "National Science Foundation"
-    grant: "NSF-1234567"
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+abstract: Objective: Intracranial pressure (ICP) monitoring is widely used in the management of patients with traumatic brain injury (TBI). The morphology of the ICP waveform is considered to provide valuable insights into cerebrospinal compliance. This paper proposes a topological data analysis (TDA)-based methodology for ICP morphological analysis. Methods: About 1.2 million ICP waveforms from 60 TBI patients are utilized to construct a data map. This map is used for near real-time ICP morphology classification, subpeak identification, and Big Data visualization. The method allows ICP morphology class labels and subpeak labels annotated by SMEs on a subset of representative waveforms to quickly propagate to millions of unlabeled waveforms, which significantly reduces labelling effort. Results: The proposed visualization allows the overlay of various ICP morphological features (e.g., P2/P1 ratio, ICP peak pressure) to provide insights into patients’ physiological condition. The method is validated on 10,000 ICP waveforms from 10 patients, achieving an overall waveform classification accuracy of 96.1% and subpeak identification accuracy of 97.3% . Conclusion: The proposed method can track subtle changes in ICP waveform morphology, offering insight into evolving intracranial compliance beyond mean ICP values. By enabling real-time, interpretable monitoring, the method provides a tool to support individualized management and early intervention in TBI patient care.
 
 tags:
 - Source Themes
@@ -51,32 +29,7 @@ featured: false
 
 hugoblox:
   ids:
-    arxiv: 1512.04133v1
-
-links:
-  - type: pdf
-    url: http://arxiv.org/pdf/1512.04133v1
-  - type: code
-    url: https://github.com/HugoBlox/kit
-  - type: dataset
-    url: ""
-  - type: poster
-    url: ""
-  - type: project
-    url: ""
-  - type: slides
-    url: https://www.slideshare.net/
-  - type: source
-    url: ""
-  - type: video
-    url: ""
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
-  focal_point: ""
-  preview_only: false
+    doi: 10.1109/JBHI.2025.3621411
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

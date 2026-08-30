@@ -23,7 +23,8 @@ publication_types: ['paper-conference']
 
 # Publication metadata — structured fields used by citation styles and BibTeX export.
 publication:
-  name: "A Novel Trace Transfer Learning Framework to Improve Dataset Quality and Reduce Modeling Effort"
+  name: "2026 37th Annual SEMI Advanced Semiconductor Manufacturing Conference"
+  short_name: "ASMC"
 
 peer_reviewed: true
 open_access: false
